@@ -35,16 +35,17 @@ Enfoque del Análisis
 Este análisis utilizará técnicas de exploración de datos (EDA) para identificar patrones y relaciones clave. Se emplearán visualizaciones, estadísticas descriptivas y correlaciones para entender cómo cada variable impacta en el precio. Los resultados podrán ser utilizados como base para futuros modelos predictivos del precio de coches usados.
 
 3. 🗂 Estructura del proyecto
-├datos_conjuntos/                # Datos crudos y procesados 
-├análisis_variables_categóricas/      # Tablas dinámicas y gráficos variables categóricas
-├análisis_variables_numéricas/         # Tablas dinámicas y gráficos variables numéricas
-├verificación_suposiciones/       # Variables que afectan al precio de los coches usados 
-├dashboard/             # Dashboard con gráficos 
-├README.md            # Este documento
+├README.md    #Este documento
+├Archivo Google Sheets    #Archivo de trabajo
+├datos_conjuntos/    # Datos crudos y procesados
+├análisis_variables_categóricas/    # Tablas dinámicas y gráficos variables categóricas 
+├análisis_variables_numéricas/    # Tablas dinámicas y gráficos variables numéricas
+├verificación_suposiciones/    # Variables que afectan al precio de los coches usados
+├dashboard/     #Dashboard con gráficos     
+├CSV    #Base de datos
 
 4. 🛠 Instalación y Requisitos
 Google Sheets.
-
 
 5. 📊 Resultados y Conclusiones
 Pasos del proyecto:
@@ -65,7 +66,7 @@ O fórmula filter.
 Pero lo mejor es: Datos -borrado de datos – quitar duplicados – seleccionamos solo la columna en la que se encuentren los duplicados que queremos (columna A).
 No hay datos duplicados.
 Nulos:
-Usar filtros y poner desconocido o la mediana.
+Usar filtros y poner desconocido o la mediana. Uso la mediana para evitar que los valores extremos afecten el análisis. Al poner el valor central nos curamos en salud.
 En las filas donde no hay valores pongo la mediana como valor escogido para analizar.
 Transformación de datos: editar - buscar y reemplazar para cambiar los los datos decimales con . para escribirlos con coma.
 Eliminación de la columna tank ya que no hay datos en ninguna fila sobre esa variable.
