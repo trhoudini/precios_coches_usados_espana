@@ -66,7 +66,7 @@ O fórmula filter.
 Pero lo mejor es: Datos -borrado de datos – quitar duplicados – seleccionamos solo la columna en la que se encuentren los duplicados que queremos (columna A).
 No hay datos duplicados.
 Nulos:
-Usar filtros y poner desconocido o la mediana. Uso la mediana para evitar que los valores extremos afecten el análisis. Al poner el valor central nos curamos en salud.
+Usar filtros y poner desconocido o la mediana. Uso la mediana para evitar que los valores extremos afecten el análisis. Al poner el valor central representamos mejor los datos sesgados.
 En las filas donde no hay valores pongo la mediana como valor escogido para analizar.
 Transformación de datos: editar - buscar y reemplazar para cambiar los los datos decimales con . para escribirlos con coma.
 Eliminación de la columna tank ya que no hay datos en ninguna fila sobre esa variable.
