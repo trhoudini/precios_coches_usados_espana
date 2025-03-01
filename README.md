@@ -96,7 +96,7 @@ Acciones que realizar:
 -	Tratamiento de duplicados
 -	Tratamiento de nulos
 -	Transformación de datos
--	
+  
 Duplicados:
 Elimino las dos últimas columnas vacías.
 Formato – formato condicional
@@ -130,6 +130,7 @@ También, he realizado varios cambios: las columnas con números adaptadas al fo
 
 ● Análisis descriptivo de los datos.
 Resumen de las columnas:
+
 •	Brand, Name, Sticker, Fuel, Transmission, Location: Variables categóricas que describen la marca, modelo, características ambientales y ubicación del coche.
 
 •	Year, KM, CV, Length, Width, Height, Weight, Trunk, Vmax, 0to100, Consumption, Emissions: Variables numéricas relacionadas con las especificaciones técnicas del coche.
@@ -137,11 +138,15 @@ Resumen de las columnas:
 •	Price: Precio del coche (variable objetivo del análisis).
 
 Patrones e identificación de anomalías:
+
 En este análisis vamos a tratar de identificar que columnas y que valores de esas columnas y que valores de esas columnas afectan directamente a nuestro objetivo del análisis: el precio de los coches usados en España.
 Queremos conocer que variables afectan más al precio de un coche usado.
 Lo haremos a través de las siguientes herramientas:
+
 -	Tablas dinámicas
+  
 -	Gráficos
+  
 -	Formato condicional
 
 Variables que pueden afectar más al precio de los coches usados:
