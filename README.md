@@ -175,31 +175,31 @@ Se han creado controles de filtros para visualizar los datos que nos interesen y
 
 Análisis tablas y gráficos (hoja: verificación_suposiciones):
 
-1. Coches-Precio
+1. Coches - Precio
  
 Podemos observar tanto en la tabla como en el gráfico que de la totalidad de coches (5.973), en el intervalo de precio de 10.000-19.999€ es donde tenemos la mayor muestra de coches (3.324).
 
-2. Precio-Brand
+2. Precio - Brand
  
 El gráfico muestra que Seat, Renault y Peugeot son las marcas más representadas en el mercado de coches usados en España, destacando en el rango de precios 10.000-19.999€, que domina ampliamente el mercado. Mercedes domina el mercado del precio de 20.000-29.999€. Las marcas premium como Audi y BMW concentran la mayoría de sus vehículos en intervalos superiores a 30.000€, mientras que las marcas generalistas ofrecen una mayor diversidad en todos los rangos de precios. Esto sugiere que el mercado está liderado por vehículos asequibles y accesibles, mientras que los coches de lujo representan un nicho más pequeño (40.000-62.000€), aunque mantienen precios elevados.
 
-3. Coches-Nombre del coche
+3. Coches - Nombre del coche
  
 Seat Ibiza y Seat León son los dos modelos de los que hay más coches en el mercado de coches usados, reafirmando que el mercado está liderado por vehículos asequibles y accesibles. Depende del modelo, tendrá un precio u otro.
 
-4. Precio-fuel
+4. Precio - Fuel
  
 El tipo de combustible influye significativamente en el precio de los coches usados. Los coches de gasolina y diésel dominan en los rangos más asequibles (10.000-19.999€), con los de gasolina siendo los más representados en general. Los vehículos híbridos y eléctricos, al ser tecnologías más modernas y sostenibles, tienen una mayor proporción en los rangos superiores (20.000€ o más), reflejando su valor tecnológico y menor depreciación. Los vehículos con combustibles menos comunes como GNC y GLP tienen poca representación, indicando que son opciones menos demandadas y posiblemente más económicas.
 
-5. Precio-Transmission
+5. Precio - Transmission
  
 La transmisión influye notablemente en el precio de los coches usados. Los vehículos con transmisión manual predominan en los rangos de precios más bajos, especialmente en el rango 10.000-19.999€, lo que sugiere que suelen ser más económicos y comunes en el mercado. Por otro lado, los coches con transmisión automática están más representados en los rangos superiores (20.000-29.999€ y más), reflejando que suelen ser modelos más modernos, con mayor tecnología y, por ende, de mayor valor. Esto indica que la transmisión automática puede ser un factor que incrementa el precio, mientras que la manual está asociada a vehículos más accesibles.
 
-6. Precio-Location
+6. Precio - Location
  
 La ubicación afecta de manera significativa al precio de los coches usados, reflejando tanto la demanda local como el poder adquisitivo de cada región. Ciudades grandes como Madrid y Barcelona concentran la mayor cantidad de vehículos, incluyendo un número considerable en rangos de precios altos (20.000 € o más), lo que podría deberse a una mayor oferta de coches premium o recientes. En contraste, en localidades más pequeñas o menos urbanizadas, como Albacete o Almería, predominan los vehículos en rangos más bajos (0-19.999 €). Las categorías "Desconocido" también tienen una alta proporción de coches asequibles, posiblemente relacionados con vehículos no registrados en ubicaciones específicas.
 
-7. Precio-Año
+7. Precio - Año
  
 El año de fabricación afecta directamente al precio de los coches usados, reflejando la depreciación con el paso del tiempo. Los vehículos más recientes (2020-2024) se concentran en rangos de precios altos (20.000 € o más), debido a su menor antigüedad, tecnología moderna y menor desgaste. En cambio, los coches más antiguos (2000-2010) predominan en los rangos más bajos (0-9.999 €), lo que indica mayor depreciación y posiblemente mayores costes de mantenimiento. Los vehículos de años intermedios (2015-2019) tienden a distribuirse en rangos medios. En general, el año es un indicador clave del valor del coche en el mercado.
 
