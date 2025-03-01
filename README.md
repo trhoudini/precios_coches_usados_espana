@@ -9,7 +9,7 @@ Explorando tendencias y patrones en el mercado automovilístico.
 2. 📖 Descripción del proyecto:
 El objetivo de este proyecto es realizar un análisis exploratorio de las variables que influyen en el precio de los coches usados en España entre los años 2000 y 2024. A través de esta base de datos, se busca identificar patrones, tendencias y relaciones entre las características de los vehículos y su precio de mercado.
 La base de datos incluye información detallada sobre diversas características de los coches, como la marca, modelo, especificaciones técnicas, tipo de combustible, dimensiones físicas, y métricas de rendimiento. Esto permite explorar cómo estas variables afectan al precio y qué factores tienen mayor impacto en el mercado de coches usados.
-Variables Incluidas:
+Variables incluidas:
 
 •	Brand: Marca del coche.
 
@@ -114,6 +114,7 @@ Creación de una nueva columna llamada intervalo de precios para separar los pre
 -	30.000-39.999€
 -	40.000-49.999€
 -	50.000-62.000€
+
 Además, se ha creado un intervalo de valores para facilitar también el análisis de las variables: KM, CV, Consumo y Emisión.
 Analizando las columnas de las 4 nuevas variables (intervalo de KM, CV, Consumo y Emisión) he observado que hay 132 celdas vacías pero al buscarlas en los datos no las encuentro, por ello, en todas las tablas dinámicas/gráficos he ocultado estos datos.
 También, he realizado varios cambios: las columnas con números adaptadas al formato número, las de texto a texto y la de precio a moneda.
@@ -191,10 +192,10 @@ El año de fabricación afecta directamente al precio de los coches usados, refl
  
 El kilometraje tiene un impacto significativo en el precio de los coches usados, ya que refleja su nivel de uso y desgaste. Los coches con menor kilometraje (0-99.999 km) están predominantemente en los rangos de precios altos (20.000 € o más), debido a su menor desgaste mecánico y a que tienen menos años. En contraste, los vehículos con mayor kilometraje (200.000-299.999 km) se concentran en los rangos más bajos (0-9.999 €), lo que indica una mayor depreciación y posibles gastos en mantenimiento. Los coches con kilometraje intermedio (100.000-199.999 km) presentan una distribución equilibrada entre los rangos de precios medios y bajos. En general, el kilometraje es un factor determinante que afecta directamente la percepción de calidad y valor del vehículo.
 
-10. Precio - CV
+9. Precio - CV
  
 La variable de caballos de potencia (CV) influye directamente en el precio de los vehículos, ya que está relacionada con el rendimiento y la potencia del motor. Los coches con menor potencia (0-99 CV) se concentran principalmente en los rangos de precios bajos (0-9.999 €), reflejando menor rendimiento y posiblemente modelos con menor motor o económicos. En comparación, los vehículos con mayor potencia (200-299 CV y superiores) predominan en los rangos de precios más altos (20.000 € o más), indicando modelos de alta gama o deportivos. La mayoría de los vehículos se encuentran en el intervalo de 100-199 CV, que domina los precios intermedios (10.000-19.999 €), siendo el rango más demandado por su equilibrio entre potencia y precio.
-11. Precio - Consumo
+10. Precio - Consumo
  
 La variable de consumo de combustible afecta significativamente al precio de los vehículos. Los vehículos con un consumo bajo (0-49) dominan todos los rangos de precios, especialmente en los intervalos de 10.000-19.999 €, lo que indica que los consumidores priorizan la eficiencia en sus coches. En cambio, los vehículos con consumos más altos (150-199 y 200-650) tienden a estar en los rangos de precios elevados (20.000 € o más), suponiendo que son modelos más potentes o de mayor capacidad que implican un mayor gasto en combustible.
 
