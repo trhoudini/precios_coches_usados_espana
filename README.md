@@ -10,31 +10,53 @@ Explorando tendencias y patrones en el mercado automovilístico.
 El objetivo de este proyecto es realizar un análisis exploratorio de las variables que influyen en el precio de los coches usados en España entre los años 2000 y 2024. A través de esta base de datos, se busca identificar patrones, tendencias y relaciones entre las características de los vehículos y su precio de mercado.
 La base de datos incluye información detallada sobre diversas características de los coches, como la marca, modelo, especificaciones técnicas, tipo de combustible, dimensiones físicas, y métricas de rendimiento. Esto permite explorar cómo estas variables afectan al precio y qué factores tienen mayor impacto en el mercado de coches usados.
 Variables Incluidas:
+
 •	Brand: Marca del coche.
+
 •	Name: Nombre del modelo exacto.
+
 •	Sticker: Pegatina ambiental (C, B, Eco, etc.).
+
 •	Year: Año de compra del coche.
+
 •	KM: Kilómetros recorridos.
+
 •	Fuel: Tipo de combustible utilizado.
+
 •	CV: Caballos de potencia.
+
 •	Transmission: Tipo de transmisión (manual o automática).
+
 •	One_owner: Indicador de si el coche ha tenido un solo dueño (True o False).
+
 •	Location: Ciudad donde se vende el coche.
+
 •	Length: Largo del coche (en metros).
+
 •	Width: Ancho del coche (en metros).
+
 •	Height: Alto del coche (en metros).
+
 •	Weight: Peso del coche (en kilogramos).
+
 •	Trunk: Capacidad del maletero (en litros).
+
 •	Vmax: Velocidad máxima (en km/h).
+
 •	Oto100: Tiempo de aceleración de 0 a 100 km/h (en segundos).
+
 •	Consumption: Consumo de combustible por cada 100 km (o autonomía para vehículos eléctricos).
+
 •	Emissions: Emisiones de CO2.
+
 •	Keys_num: Número de llaves disponibles.
+
 •	Price: Precio del coche.
+
 Enfoque del Análisis
 Este análisis utilizará técnicas de exploración de datos (EDA) para identificar patrones y relaciones clave. Se emplearán visualizaciones, estadísticas descriptivas y correlaciones para entender cómo cada variable impacta en el precio. Los resultados podrán ser utilizados como base para futuros modelos predictivos del precio de coches usados.
 
-3. 🗂 Estructura del proyecto
+4. 🗂 Estructura del proyecto
 ├README.md    #Este documento
 ├Archivo Google Sheets    #Archivo de trabajo
 ├datos_conjuntos/    # Datos crudos y procesados
@@ -44,10 +66,10 @@ Este análisis utilizará técnicas de exploración de datos (EDA) para identifi
 ├dashboard/     #Dashboard con gráficos     
 ├CSV    #Base de datos
 
-4. 🛠 Instalación y Requisitos
+5. 🛠 Instalación y Requisitos
 Google Sheets.
 
-5. 📊 Resultados y Conclusiones
+6. 📊 Resultados y Conclusiones
 Pasos del proyecto:
 •	Transformación y limpieza de los datos.
 •	Análisis descriptivo de los datos.
