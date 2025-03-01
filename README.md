@@ -79,7 +79,7 @@ Este análisis utilizará técnicas de exploración de datos (EDA) para identifi
    
 Google Sheets.
 
-5. 📊 Resultados y Conclusiones
+5. 📊 Resultados y Conclusiones:
    
 Pasos del proyecto:
 
@@ -121,8 +121,11 @@ También, he realizado varios cambios: las columnas con números adaptadas al fo
 ● Análisis descriptivo de los datos.
 Resumen de las columnas:
 •	Brand, Name, Sticker, Fuel, Transmission, Location: Variables categóricas que describen la marca, modelo, características ambientales y ubicación del coche.
+
 •	Year, KM, CV, Length, Width, Height, Weight, Trunk, Vmax, 0to100, Consumption, Emissions: Variables numéricas relacionadas con las especificaciones técnicas del coche.
+
 •	Price: Precio del coche (variable objetivo del análisis).
+
 Patrones e identificación de anomalías:
 En este análisis vamos a tratar de identificar que columnas y que valores de esas columnas y que valores de esas columnas afectan directamente a nuestro objetivo del análisis: el precio de los coches usados en España.
 Queremos conocer que variables afectan más al precio de un coche usado.
@@ -130,16 +133,26 @@ Lo haremos a través de las siguientes herramientas:
 -	Tablas dinámicas
 -	Gráficos
 -	Formato condicional
+
 Variables que pueden afectar más al precio de los coches usados:
 •	Brand: Marcas premium suelen tener precios más altos.
+
 •	Name: Depende del modelo de coche será más caro o más barato.
+
 •	Fuel: Los coches eléctricos o híbridos pueden tener precios diferentes comparados con gasolina o diésel.
+
 •	Transmission: Los automáticos suelen ser más caros en algunos mercados.
+
 •	Location: depende de la ciudad donde se encuentre, tendrá un precio u otro.
+
 •	Year: Los coches más nuevos tienden a ser más caros.
+
 •	KM (kilometraje): Un mayor kilometraje suele reducir el precio.
+
 •	CV (potencia): Coches con más potencia generalmente tienen precios más altos.
+
 •	Consumption: El consumo eficiente puede aumentar el precio en mercados donde esta característica sea valorada.
+
 •	Emissions: Las bajas emisiones pueden aumentar el precio en mercados donde esta característica sea valorada.
 
 Se han creado controles de filtros para visualizar los datos que nos interesen y macros para cambiar rápidamente la vista de los datos de porcentajes a valores absolutos.
