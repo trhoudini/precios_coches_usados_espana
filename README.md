@@ -57,24 +57,38 @@ Enfoque del Análisis:
 
 Este análisis utilizará técnicas de exploración de datos (EDA) para identificar patrones y relaciones clave. Se emplearán visualizaciones, estadísticas descriptivas y correlaciones para entender cómo cada variable impacta en el precio. Los resultados podrán ser utilizados como base para futuros modelos predictivos del precio de coches usados.
 
-3. 🗂 Estructura del proyecto
+3. 🗂 Estructura del proyecto:
+   
 ├README.md    #Este documento
+
 ├Archivo Google Sheets    #Archivo de trabajo
+
 ├datos_conjuntos/    # Datos crudos y procesados
+
 ├análisis_variables_categóricas/    # Tablas dinámicas y gráficos variables categóricas 
+
 ├análisis_variables_numéricas/    # Tablas dinámicas y gráficos variables numéricas
+
 ├verificación_suposiciones/    # Variables que afectan al precio de los coches usados
+
 ├dashboard/     #Dashboard con gráficos     
+
 ├CSV    #Base de datos
 
-4. 🛠 Instalación y Requisitos
+4. 🛠 Instalación y Requisitos:
+   
 Google Sheets.
 
 5. 📊 Resultados y Conclusiones
+   
 Pasos del proyecto:
+
 •	Transformación y limpieza de los datos.
+
 •	Análisis descriptivo de los datos.
+
 •	Dashboard.
+
 •	Informe explicativo del análisis.
 
 ● Transformación y limpieza de los datos.
@@ -105,7 +119,7 @@ Analizando las columnas de las 4 nuevas variables (intervalo de KM, CV, Consumo 
 También, he realizado varios cambios: las columnas con números adaptadas al formato número, las de texto a texto y la de precio a moneda.
 
 ● Análisis descriptivo de los datos.
-Resumen de las columnas
+Resumen de las columnas:
 •	Brand, Name, Sticker, Fuel, Transmission, Location: Variables categóricas que describen la marca, modelo, características ambientales y ubicación del coche.
 •	Year, KM, CV, Length, Width, Height, Weight, Trunk, Vmax, 0to100, Consumption, Emissions: Variables numéricas relacionadas con las especificaciones técnicas del coche.
 •	Price: Precio del coche (variable objetivo del análisis).
@@ -247,15 +261,18 @@ Conclusión final
 
 Este análisis permite identificar tendencias clave para compradores y vendedores, ayudando a tomar mejores decisiones en la compra-venta de coches usados.
 
-6. 🔄 Próximos Pasos
+6. 🔄 Próximos Pasos:
+   
 •	Refinar el modelo predictivo usando más datos históricos.
 •	Implementar técnicas avanzadas de feature engineering para mejorar la precisión.
 •	Explorar el impacto de factores externos como campañas de marketing y eventos en las ventas.
 
-7. 🤝 Contribuciones
+7. 🤝 Contribuciones:
+
 Las contribuciones son bienvenidas. Si deseas mejorar el proyecto, por favor abre un pull request o una issue.
 
-8. ✒ Autores y Agradecimientos
+8. ✒ Autores y Agradecimientos:
+
 Base de datos: https://www.kaggle.com/datasets/gandpablo/cars-prices-for-machine-learning
 Créditos a GandPablo: Pablo Gandia (https://github.com/gandpablo)
 
