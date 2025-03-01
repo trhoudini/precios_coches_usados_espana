@@ -150,6 +150,7 @@ Lo haremos a través de las siguientes herramientas:
 -	Formato condicional
 
 Variables que pueden afectar más al precio de los coches usados:
+
 •	Brand: Marcas premium suelen tener precios más altos.
 
 •	Name: Depende del modelo de coche será más caro o más barato.
