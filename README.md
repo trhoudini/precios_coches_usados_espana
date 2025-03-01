@@ -2,11 +2,11 @@ README PROYECTO DATAPROJECT: DASHBOARD & ANÁLISIS DE DATOS
 
 📋 Estructura:
 
-1. Título del proyecto
+1. Título del proyecto:
 🚗 Análisis de precios de coches usados en España (2000-2024).
 Explorando tendencias y patrones en el mercado automovilístico.
 
-2. 📖 Descripción del proyecto
+2. 📖 Descripción del proyecto:
 El objetivo de este proyecto es realizar un análisis exploratorio de las variables que influyen en el precio de los coches usados en España entre los años 2000 y 2024. A través de esta base de datos, se busca identificar patrones, tendencias y relaciones entre las características de los vehículos y su precio de mercado.
 La base de datos incluye información detallada sobre diversas características de los coches, como la marca, modelo, especificaciones técnicas, tipo de combustible, dimensiones físicas, y métricas de rendimiento. Esto permite explorar cómo estas variables afectan al precio y qué factores tienen mayor impacto en el mercado de coches usados.
 Variables Incluidas:
