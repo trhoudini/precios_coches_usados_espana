@@ -53,10 +53,11 @@ Variables Incluidas:
 
 •	Price: Precio del coche.
 
-Enfoque del Análisis
+Enfoque del Análisis:
+
 Este análisis utilizará técnicas de exploración de datos (EDA) para identificar patrones y relaciones clave. Se emplearán visualizaciones, estadísticas descriptivas y correlaciones para entender cómo cada variable impacta en el precio. Los resultados podrán ser utilizados como base para futuros modelos predictivos del precio de coches usados.
 
-4. 🗂 Estructura del proyecto
+3. 🗂 Estructura del proyecto
 ├README.md    #Este documento
 ├Archivo Google Sheets    #Archivo de trabajo
 ├datos_conjuntos/    # Datos crudos y procesados
@@ -66,10 +67,10 @@ Este análisis utilizará técnicas de exploración de datos (EDA) para identifi
 ├dashboard/     #Dashboard con gráficos     
 ├CSV    #Base de datos
 
-5. 🛠 Instalación y Requisitos
+4. 🛠 Instalación y Requisitos
 Google Sheets.
 
-6. 📊 Resultados y Conclusiones
+5. 📊 Resultados y Conclusiones
 Pasos del proyecto:
 •	Transformación y limpieza de los datos.
 •	Análisis descriptivo de los datos.
