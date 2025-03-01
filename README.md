@@ -282,10 +282,15 @@ Conclusión: Los coches más nuevos mantienen su valor, mientras que los modelos
 Conclusión: Los coches que menos consumen son los más comunes en el mercado de segunda mano.
 
 Conclusión final
+
 •	La mayoría de los coches usados en España tienen precios entre 10.000 y 29.999€.
+
 •	La marca, el número de kilómetros, el año de compra, el número de caballos y el tipo de transmisión son factores clave en el precio.
+
 •	Los coches eléctricos, automáticos y de marcas premium son los más caros.
+
 •	Las ciudades grandes tienen más oferta y variedad de precios.
+
 •	Los coches más eficientes en consumo dominan el mercado.
 
 Este análisis permite identificar tendencias clave para compradores y vendedores, ayudando a tomar mejores decisiones en la compra-venta de coches usados.
@@ -293,7 +298,9 @@ Este análisis permite identificar tendencias clave para compradores y vendedore
 6. 🔄 Próximos Pasos:
    
 •	Refinar el modelo predictivo usando más datos históricos.
+
 •	Implementar técnicas avanzadas de feature engineering para mejorar la precisión.
+
 •	Explorar el impacto de factores externos como campañas de marketing y eventos en las ventas.
 
 7. 🤝 Contribuciones:
