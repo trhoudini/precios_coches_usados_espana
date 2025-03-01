@@ -96,23 +96,32 @@ Acciones que realizar:
 -	Tratamiento de duplicados
 -	Tratamiento de nulos
 -	Transformación de datos
+-	
 Duplicados:
 Elimino las dos últimas columnas vacías.
 Formato – formato condicional
 O fórmula filter.
 Pero lo mejor es: Datos -borrado de datos – quitar duplicados – seleccionamos solo la columna en la que se encuentren los duplicados que queremos (columna A).
 No hay datos duplicados.
+
 Nulos:
 Usar filtros y poner desconocido o la mediana. Uso la mediana para evitar que los valores extremos afecten el análisis. Al poner el valor central representamos mejor los datos sesgados.
 En las filas donde no hay valores pongo la mediana como valor escogido para analizar.
+
 Transformación de datos: editar - buscar y reemplazar para cambiar los los datos decimales con . para escribirlos con coma.
 Eliminación de la columna tank ya que no hay datos en ninguna fila sobre esa variable.
 Creación de una nueva columna llamada intervalo de precios para separar los precios por intervalos y así facilitar y mejorar el análisis. Intervalos de precios:
+
 -	0-1.000€
+  
 -	10.000-19.999€
+  
 -	20.000-29.999€
+  
 -	30.000-39.999€
+  
 -	40.000-49.999€
+  
 -	50.000-62.000€
 
 Además, se ha creado un intervalo de valores para facilitar también el análisis de las variables: KM, CV, Consumo y Emisión.
@@ -199,7 +208,7 @@ La variable de caballos de potencia (CV) influye directamente en el precio de lo
  
 La variable de consumo de combustible afecta significativamente al precio de los vehículos. Los vehículos con un consumo bajo (0-49) dominan todos los rangos de precios, especialmente en los intervalos de 10.000-19.999 €, lo que indica que los consumidores priorizan la eficiencia en sus coches. En cambio, los vehículos con consumos más altos (150-199 y 200-650) tienden a estar en los rangos de precios elevados (20.000 € o más), suponiendo que son modelos más potentes o de mayor capacidad que implican un mayor gasto en combustible.
 
-12. Precio – Emisiones
+10. Precio – Emisiones
  
 Por último, la variable emisiones también afecta directamente al precio de los vehículos, ya que está relacionada con las normativas ambientales y la eficiencia del motor. La mayoría de los vehículos en el rango de 100-149 se concentran en precios de 10.000-19.999 €, lo que muestra que los coches con emisiones moderadas tienen mayor demanda en este rango de precios accesibles. Por otra parte, los vehículos con emisiones más altas (150-249) están asociados a precios más elevados (20.000 € o más), probablemente debido a que corresponden a coches más potentes o de mayor categoría. Esto sugiere que las bajas emisiones son un factor clave para vehículos económicos, mientras que las altas emisiones tienen mayor cabida en modelos premium.
 
